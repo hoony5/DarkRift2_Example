@@ -11,6 +11,8 @@
         Console.WriteLine(_messageStringBuilder.ToString());
         switch ((Tags)e.Tag)
         {
+            case Tags.DEBUG_SEND_TO_SERVER_RESULT:
+                break;
             case Tags.CHECK_VERSION_SUCCESS:
                 break;
             case Tags.CHECK_VERSION_FAILED:

@@ -1,6 +1,9 @@
 ﻿using UnityClientServer;
 using UnityClientServerModel.Models;
 
+/// <summary>
+/// Debug Message of ClientServer from Client to Any Server So, ServerMessageReceivedEventArgs no necessary.
+/// </summary>
 public static class DebugLogic
 {
     public static void ProcessRequest(DarkRiftReader reader, MessageReceivedEventArgs e)
