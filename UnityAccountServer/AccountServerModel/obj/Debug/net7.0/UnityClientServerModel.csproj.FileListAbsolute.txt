@@ -1,0 +1,26 @@
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\UnityClientServerModel.deps.json
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\UnityClientServerModel.dll
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\UnityClientServerModel.pdb
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\DarkRift.dll
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\DarkRift.Server.dll
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\DarkRift.Client.dll
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\DarkRift.pdb
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\DarkRift.Server.pdb
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\bin\Debug\net7.0\DarkRift.Client.pdb
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.csproj.AssemblyReference.cache
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.AssemblyInfoInputs.cache
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.AssemblyInfo.cs
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.csproj.CoreCompileInputs.cache
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.csproj.CopyComplete
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.dll
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\refint\UnityClientServerModel.dll
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.pdb
+C:\Users\power\RiderProjects\UnityClientServer\UnityClientServerModel\obj\Debug\net7.0\ref\UnityClientServerModel.dll
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.csproj.AssemblyReference.cache
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.AssemblyInfoInputs.cache
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.AssemblyInfo.cs
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.csproj.CoreCompileInputs.cache
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\UnityClientServerModel.dll
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\LoginServer\UnityClientServerModel\obj\Debug\net7.0\refint\UnityClientServerModel.dll

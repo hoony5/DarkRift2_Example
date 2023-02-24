@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\power\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\power\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
+      "projectUniqueName": "C:\\Users\\power\\OneDrive\\바탕 화면\\Power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
       "projectName": "UnityClientServerModel",
-      "projectPath": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
+      "projectPath": "C:\\Users\\power\\OneDrive\\바탕 화면\\Power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
       "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\obj\\",
+      "outputPath": "C:\\Users\\power\\OneDrive\\바탕 화면\\Power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\power\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

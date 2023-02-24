@@ -1,0 +1,5 @@
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\UnityAccountServer\AccountServerModel\obj\Debug\net7.0\AccountServerModel.csproj.AssemblyReference.cache
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\UnityAccountServer\AccountServerModel\obj\Debug\net7.0\AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\UnityAccountServer\AccountServerModel\obj\Debug\net7.0\AccountServerModel.AssemblyInfoInputs.cache
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\UnityAccountServer\AccountServerModel\obj\Debug\net7.0\AccountServerModel.AssemblyInfo.cs
+C:\Users\power\OneDrive\바탕 화면\Power\DarkRift2_Example\UnityAccountServer\AccountServerModel\obj\Debug\net7.0\AccountServerModel.csproj.CoreCompileInputs.cache
