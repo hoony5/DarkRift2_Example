@@ -8,20 +8,29 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="DarkRift">
-        <HintPath>..\..\DarkRift2\DarkRift.Server.Console\bin\Release\net7.0\DarkRift.dll</HintPath>
-      </Reference>
-      <Reference Include="DarkRift.Server">
-        <HintPath>..\..\DarkRift2\DarkRift.Server.Console\bin\Release\net7.0\DarkRift.Server.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\AccountServerModel\AccountServerModel.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Consul" Version="1.6.10.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="DarkRift">
+        <HintPath>..\..\Ref\DarkRift.dll</HintPath>
+      </Reference>
+      <Reference Include="DarkRift.Server">
+        <HintPath>..\..\Ref\DarkRift.Server.dll</HintPath>
+      </Reference>
+      <Reference Include="MySql.Data">
+        <HintPath>..\..\Ref\MySql.Data.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityClientServer">
+        <HintPath>..\..\Ref\UnityClientServer.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityClientServerModel">
+        <HintPath>..\..\Ref\UnityClientServerModel.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

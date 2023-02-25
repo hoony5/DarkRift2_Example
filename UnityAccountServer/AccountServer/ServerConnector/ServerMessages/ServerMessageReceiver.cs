@@ -12,6 +12,7 @@
         switch ((Tags)e.Tag)
         {
             case Tags.DEBUG_SEND_TO_SERVER_RESULT:
+                DebugLogic.ProcessRequestToServer(reader, e);
                 break;
             case Tags.CHECK_VERSION_SUCCESS:
                 break;

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Data;
-using System.Data.SqlClient;
-using System.Text;
-using DarkRift.Server;
-using ClientServerModel;
-using MySql.Data.MySqlClient;
-using UnityClientServer.MariaDB;
+﻿using MySql.Data.MySqlClient;
 using Math = System.Math;
 
 public static class MariaDBManager
@@ -50,11 +43,39 @@ public static class MariaDBManager
         }
     }
 
-    public static string[] SelectRow(string dataTableName, string standardColumn, string standardValue, ServerMessageReceivedEventArgs e)
+    private static StringBuilder ReadValue(MySqlDataReader reader)
+    {
+        for (int i = 0; i < reader.VisibleFieldCount; i++)
+        {
+            Type type = reader.GetFieldType(i);
+
+            if (type == typeof(string))
+            {
+                sb.Append(i == reader.VisibleFieldCount - 1
+                    ? $"{reader.GetFieldValue<string>(i)}"
+                    : $"{reader.GetFieldValue<string>(i)},");
+            }
+
+            if (type == typeof(float))
+            {
+                sb.Append(i == reader.VisibleFieldCount - 1
+                    ? reader.GetFieldValue<float>(i).ToString()
+                    : $"{reader.GetFieldValue<float>(i).ToString()},");
+            }
+
+            if (type != typeof(int)) continue;
+            sb.Append(i == reader.VisibleFieldCount - 1
+                ? reader.GetFieldValue<int>(i).ToString()
+                : $"{reader.GetFieldValue<int>(i).ToString()},");
+        }
+
+        return sb;
+    }
+    public static string[] SelectRow(string dataTableName, string targetColumn, string targetValue)
     {
         try
         {
-            string sql = $"select * from {dataTableName} where {standardColumn} ='{standardValue}'";
+            string sql = $"select * from {dataTableName} where {targetColumn} ='{targetValue}'";
             sb.Clear();
 
             using (MySqlConnection conn = new MySqlConnection(ConnectionData))
@@ -66,30 +87,9 @@ public static class MariaDBManager
 
                 while (reader.Read() && !reader.IsClosed)
                 {
-                    for (int i = 0; i < reader.VisibleFieldCount; i++)
-                    {
-                        Type type = reader.GetFieldType(i);
-
-                        if (type == typeof(string))
-                        {
-                            sb.Append(i == reader.VisibleFieldCount - 1
-                                ? $"{reader.GetFieldValue<string>(i)}"
-                                : $"{reader.GetFieldValue<string>(i)},");
-                        }
-
-                        if (type == typeof(float))
-                        {
-                            sb.Append(i == reader.VisibleFieldCount - 1
-                                ? reader.GetFieldValue<float>(i).ToString()
-                                : $"{reader.GetFieldValue<float>(i).ToString()},");
-                        }
-
-                        if (type != typeof(int)) continue;
-                        sb.Append(i == reader.VisibleFieldCount - 1
-                            ? reader.GetFieldValue<int>(i).ToString()
-                            : $"{reader.GetFieldValue<int>(i).ToString()},");
-                    }
+                    sb = ReadValue(reader);
                 }
+
                 reader.Close();
                 return sb.ToString().Split(',');
             }
@@ -97,10 +97,11 @@ public static class MariaDBManager
         catch (Exception exception)
         {
             Console.WriteLine(exception);
+            return new string[1] { "NULL" };
         }
     }
 
-    public static bool ExistDB(string dataTableName, string columnName, string input)
+    public static bool ExistDB(string dataTableName, string column, string input)
     {
         try
         {
@@ -112,7 +113,7 @@ public static class MariaDBManager
 
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
-                int index = reader.GetOrdinal(columnName);
+                int index = reader.GetOrdinal(column);
                 Type columnDataType = reader.GetFieldType(index);
 
                 while (reader.Read())
@@ -140,108 +141,110 @@ public static class MariaDBManager
         catch (Exception exception)
         {
             Console.WriteLine(exception);
+            return false;
         }
     }
 
-    public static void InsertDB(string dataTableName, params (string, string)[] CNameCValuePairs)
+    public static bool InsertDB(string dataTableName, params (string column, string value)[] insert)
     {
         try
         {
-            string columnsNames = string.Empty;
-            string columnsValues = string.Empty;
+            string columns = string.Empty;
+            string values = string.Empty;
                 
-            for (int i = 0; i < CNameCValuePairs.Length; i++)
+            for (int i = 0; i < insert.Length; i++)
             {
-                (string name, string value) current = CNameCValuePairs[i];
-                bool isLastIndex = i == CNameCValuePairs.Length - 1;
+                (string name, string value) current = insert[i];
+                bool isLastIndex = i == insert.Length - 1;
                     
-                columnsNames += isLastIndex ? current.name : $"{current.name},";
-                columnsValues += isLastIndex ? $"'{current.value}'" : $"'{current.value}',";
+                columns += isLastIndex ? current.name : $"{current.name},";
+                values += isLastIndex ? $"'{current.value}'" : $"'{current.value}',";
             }
 
-            string sql = $"Insert Into {dataTableName} ({columnsNames}) values ({columnsValues})";
-            
-            //string sql = "Insert Into sampledatatable (ACCOUNT_ID) values ('abcdf234234423')";
+            string sql = $"Insert Into {dataTableName} ({columns}) values ({values})";
 
-            using (MySqlConnection conn = new MySqlConnection(ConnectionData))
-            {
-                conn.Open();
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.ExecuteNonQuery();
-            }
+            using MySqlConnection conn = new MySqlConnection(ConnectionData);
+            conn.Open();
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            cmd.ExecuteNonQuery();
+            return true;
         }
         catch (Exception exception)
         {
             Console.WriteLine(exception);
+            return false;
         }
     }
-    public static void UpdateDB(string dataTableName, string whereColumnName, string whereColumnValue, string updateColumn, string updateValue)
+    
+    public static bool UpdateDB(string dataTableName, string targetColumn, string targetValue, string updateColumn, string updateValue)
     {
         try
         {
-            string sql = $"Update {dataTableName} Set {updateColumn} ='{updateValue}' where {whereColumnName} ='{whereColumnValue}'";
+            string sql = $"Update {dataTableName} Set {updateColumn} ='{updateValue}' where {targetColumn} ='{targetValue}'";
 
-            using (MySqlConnection conn = new MySqlConnection(ConnectionData))
-            {
-                conn.Open();
+            using MySqlConnection conn = new MySqlConnection(ConnectionData);
+            conn.Open();
 
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.ExecuteNonQuery();
-            }
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            cmd.ExecuteNonQuery();
+            return true;
         }
         catch (Exception exception)
         { 
             Console.WriteLine(exception);
+            return false;
         }
     }
         
-    public static void UpdateMultipleDB(string dataTableName, string whereColumnName, string whereColumnValue, params (string ,string)[] updateColumnValuePairs)
+    // target column is originality of the value we want to update
+    // update column is the column we want to update
+    // update value is the new value
+    public static bool UpdateMultipleDB(string dataTableName, string targetColumn, string targetValue, params (string column ,string value)[] update)
     {
         try
         {
             sb.Clear();
 
-            for (int i = 0; i < updateColumnValuePairs.Length; i++)
+            for (int i = 0; i < update.Length; i++)
             {
-                (string column, string value) current = updateColumnValuePairs[i];
-                bool isLastIndex = updateColumnValuePairs.Length - 1 == i;
+                (string column, string value) current = update[i];
+                bool isLastIndex = update.Length - 1 == i;
                 sb.Append(isLastIndex ? $"{current.column} ='{current.value}'" :$"{current.column} ='{current.value}',");
             }
             
-            string sql = $"Update {dataTableName} Set {sb}  where {whereColumnName} = '{whereColumnValue}'";
-            
-            using (MySqlConnection conn = new MySqlConnection(ConnectionData))
-            {
-                conn.Open();
+            string sql = $"Update {dataTableName} Set {sb}  where {targetColumn} = '{targetValue}'";
 
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.ExecuteNonQuery();
-            }
-        }
-        catch (Exception exception)
-        {
-            exception.Log();
-            throw;
-        }
-    }
+            using MySqlConnection conn = new MySqlConnection(ConnectionData);
+            conn.Open();
 
-    public static void DeleteRow(string dataTableName, string whereColumnName, string whereColumnValue)
-    {
-        try
-        {
-            string sql = $"Delete From {dataTableName} where {whereColumnName} = '{whereColumnValue}'";
-            AlarmConnectionDB(sql);
-
-            using (MySqlConnection conn = new MySqlConnection(ConnectionData))
-            {
-                conn.Open();
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.ExecuteNonQuery();
-            }
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            cmd.ExecuteNonQuery();
+            return true;
         }
         catch (Exception exception)
         {
             Console.WriteLine(exception);
+            return false;
+        }
+    }
+
+    public static bool DeleteRow(string dataTableName, string targetColumn, string targetValue)
+    {
+        try
+        {
+            string sql = $"Delete From {dataTableName} where {targetColumn} = '{targetValue}'";
+
+            using MySqlConnection conn = new MySqlConnection(ConnectionData);
+            
+            conn.Open();
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            cmd.ExecuteNonQuery();
+            return true;
+        }
+        catch (Exception exception)
+        {
+            Console.WriteLine(exception);
+            return false;
         }
     }
 }

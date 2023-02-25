@@ -8,24 +8,17 @@ public class AccountServer : Plugin
     {
         Logger.Info("LogicServer is running..");
     }
-    
-    protected override void Install()
+
+    protected override void Install(InstallEventArgs args)
     {
-        
-    }
-    protected override void Update()
-    {
-        
+        base.Install(args);
+        ConnectDB();
     }
     
     private void ConnectDB()
     {
         // connect MariaDB
-        var connectMariaDb = MariaDBManager.ConnectMariaDB();
-        Logger.Info("MariaDB is Connected ?",connectMariaDb.ToString());
-
-        if (!connectMariaDb) return;
-        AccountDBLogic.InitAccountDB();
-        AvatarDBLogic.InitAvtDB();
+        bool connectMariaDb = MariaDBManager.ConnectMariaDB();
+        Logger.Info($"MariaDB is Connected ? {connectMariaDb.ToString()}");
     }
 }

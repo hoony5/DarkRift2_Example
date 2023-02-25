@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qKydTXuAJKWQ8bLQJ5tcyG7n6R+8hRhrfhtzDqXPoDd2t3mww5+m5Icmxjm1CokMJuaHTgEN6t3+pJL66zwhmg==",
+  "dgSpecHash": "pVFkMFahu1VznvVcTCGq6ADh8tQuzK/Z1Ln3+V69bwmqMBMQ8OiZ99JoV86Tbx+GMqbe7YrITXBXbOZRQOOX7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\power\\OneDrive\\바탕 화면\\Power\\DarkRift2_Example\\UnityAccountServer\\AccountServerModel\\AccountServerModel.csproj",
+  "projectFilePath": "C:\\Users\\power\\DarkRift2_Example\\UnityAccountServer\\AccountServerModel\\AccountServerModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

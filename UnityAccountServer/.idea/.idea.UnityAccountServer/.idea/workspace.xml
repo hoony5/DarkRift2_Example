@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48967d73-7afc-4c47-a8a0-6d359f74fd92" name="Changes" comment="" />
+    <list default="true" id="48967d73-7afc-4c47-a8a0-6d359f74fd92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ClientServer/.idea/.idea.UnityClientServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer/.idea/.idea.UnityClientServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer/UnityClientServer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer/UnityClientServer.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer/UnityClientServer/UnityClientServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer/UnityClientServer/UnityClientServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer/UnityClientServer/obj/Debug/net7.0/UnityClientServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer/UnityClientServer/obj/Debug/net7.0/UnityClientServer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer/UnityClientServerModel/UnityClientServerModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer/UnityClientServerModel/UnityClientServerModel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer/UnityClientServerModel/obj/Debug/net7.0/UnityClientServerModel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer/UnityClientServerModel/obj/Debug/net7.0/UnityClientServerModel.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/AccountServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/AccountServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/AccountServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/AccountServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/MariaDB/AccountDBLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/MariaDB/AvatarDBLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/MariaDB/MariaDBData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/MariaDB/MariaDBData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/MariaDB/MariaDBManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/MariaDB/MariaDBManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/AccountServer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/AccountServer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/AccountServer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/AccountServer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/Debug/net7.0/AccountServer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/Debug/net7.0/AccountServer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/Debug/net7.0/AccountServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/Debug/net7.0/AccountServer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/Debug/net7.0/AccountServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/Debug/net7.0/AccountServer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/AccountServerModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/AccountServerModel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/AccountServerModel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/AccountServerModel.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/AccountServerModel.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/AccountServerModel.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/Debug/net7.0/AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/Debug/net7.0/AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/Debug/net7.0/AccountServerModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/Debug/net7.0/AccountServerModel.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/Debug/net7.0/AccountServerModel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/Debug/net7.0/AccountServerModel.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountServerModel/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AccountServerModel/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityAccountServer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/UnityAccountServer.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,22 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\power\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\power\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\power\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\power\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\power\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\power\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677219475736</updated>
       <workItem from="1677219476994" duration="425000" />
+      <workItem from="1677289579227" duration="888000" />
     </task>
     <servers />
   </component>

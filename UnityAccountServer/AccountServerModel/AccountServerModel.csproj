@@ -9,10 +9,10 @@
 
     <ItemGroup>
       <Reference Include="DarkRift">
-        <HintPath>..\..\DarkRift2\DarkRift.Server.Console\bin\Release\net7.0\DarkRift.dll</HintPath>
+        <HintPath>..\..\Ref\DarkRift.dll</HintPath>
       </Reference>
       <Reference Include="DarkRift.Server">
-        <HintPath>..\..\DarkRift2\DarkRift.Server.Console\bin\Release\net7.0\DarkRift.Server.dll</HintPath>
+        <HintPath>..\..\Ref\DarkRift.Server.dll</HintPath>
       </Reference>
     </ItemGroup>
 

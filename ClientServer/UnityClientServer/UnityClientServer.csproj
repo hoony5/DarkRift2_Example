@@ -7,20 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="DarkRift">
-        <HintPath>..\..\DarkRift2\DarkRift.Server.Console\bin\Release\net7.0\DarkRift.dll</HintPath>
-      </Reference>
-      <Reference Include="DarkRift.Server">
-        <HintPath>..\..\DarkRift2\DarkRift.Server.Console\bin\Release\net7.0\DarkRift.Server.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\UnityClientServerModel\UnityClientServerModel.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Consul" Version="1.6.10.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="DarkRift">
+        <HintPath>..\..\Ref\DarkRift.dll</HintPath>
+      </Reference>
+      <Reference Include="DarkRift.Server">
+        <HintPath>..\..\Ref\DarkRift.Server.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

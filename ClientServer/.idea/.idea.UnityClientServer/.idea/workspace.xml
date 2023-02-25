@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59294512-2782-4fba-9fe5-7d1eb45a4085" name="Changes" comment="" />
+    <list default="true" id="59294512-2782-4fba-9fe5-7d1eb45a4085" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityClientServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityClientServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServer.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServer/UnityClientServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServer/UnityClientServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServer/obj/Debug/net7.0/UnityClientServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServer/obj/Debug/net7.0/UnityClientServer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/UnityClientServerModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/UnityClientServerModel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/obj/Debug/net7.0/UnityClientServerModel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/obj/Debug/net7.0/UnityClientServerModel.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/AccountDBLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/AvatarDBLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/AccountServerModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/AccountServerModel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/UnityAccountServer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/UnityAccountServer.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,16 +43,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/946d42e3573fb27245b682703c129c21b2b471d74fac086296ee2dd68772534/ValueType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/ConsulServerRegistryConnector (2).cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/IMessageSinkSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/INetworkListenerManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/LogManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/Logger.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/NetworkListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/PluginBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift.Server/PluginBaseLoadData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift/DarkRiftWriter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../DarkRift2/DarkRift/Message.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,6 +80,8 @@
       <workItem from="1676563161985" duration="1561000" />
       <workItem from="1676565510453" duration="251000" />
       <workItem from="1677287441975" duration="697000" />
+      <workItem from="1677289201434" duration="348000" />
+      <workItem from="1677289564523" duration="639000" />
     </task>
     <servers />
   </component>
