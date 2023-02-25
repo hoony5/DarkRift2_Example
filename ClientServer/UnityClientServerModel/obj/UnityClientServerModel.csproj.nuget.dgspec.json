@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj": {}
+    "C:\\Users\\power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj": {
+    "C:\\Users\\power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
+        "projectUniqueName": "C:\\Users\\power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
         "projectName": "UnityClientServerModel",
-        "projectPath": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
+        "projectPath": "C:\\Users\\power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\UnityClientServerModel.csproj",
         "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServerModel\\obj\\",
+        "outputPath": "C:\\Users\\power\\DarkRift2_Example\\ClientServer\\UnityClientServerModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

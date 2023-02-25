@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UnityClientServer
-build_property.ProjectDir = C:\Users\power\RiderProjects\UnityClientServer\UnityClientServer\
+build_property.ProjectDir = C:\Users\power\DarkRift2_Example\ClientServer\UnityClientServer\

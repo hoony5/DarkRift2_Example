@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "njUuEQ1y3PIfdDWdkfF9g+5ixLDyk5FNygz0MWpNTnQIc23f3012qXbqSZ2XtL6noRor3C04r+QsxNsKw1KENg==",
+  "dgSpecHash": "qVQd/GVa3K0J0JrUjJk4yMXW4d5sXsChBGRIdreke4rbjlghtFg6NxfOwoin5vnI32SOER+NiLiUqGO06fzPEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\power\\RiderProjects\\UnityClientServer\\UnityClientServer\\UnityClientServer.csproj",
+  "projectFilePath": "C:\\Users\\power\\DarkRift2_Example\\ClientServer\\UnityClientServer\\UnityClientServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\power\\.nuget\\packages\\consul\\1.6.10.8\\consul.1.6.10.8.nupkg.sha512",
     "C:\\Users\\power\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
