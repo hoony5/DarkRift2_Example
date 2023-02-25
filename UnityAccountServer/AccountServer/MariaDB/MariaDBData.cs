@@ -16,4 +16,5 @@ public static class MariaDBData
     public static readonly string DBName = "realDB";
     public static readonly string DBUserID = "root";
     public static readonly string DBPassword = "1234";
+    public static readonly string DBTable = "realDBTable";
 }

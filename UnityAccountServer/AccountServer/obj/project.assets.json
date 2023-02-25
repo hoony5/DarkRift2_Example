@@ -36,16 +36,6 @@
             "related": ".xml"
           }
         }
-      },
-      "AccountServerModel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/AccountServerModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AccountServerModel.dll": {}
-        }
       }
     }
   },
@@ -158,16 +148,10 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "AccountServerModel/1.0.0": {
-      "type": "project",
-      "path": "../AccountServerModel/AccountServerModel.csproj",
-      "msbuildProject": "../AccountServerModel/AccountServerModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "AccountServerModel >= 1.0.0",
       "Consul >= 1.6.10.8"
     ]
   },
@@ -203,11 +187,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\power\\DarkRift2_Example\\UnityAccountServer\\AccountServerModel\\AccountServerModel.csproj": {
-              "projectPath": "C:\\Users\\power\\DarkRift2_Example\\UnityAccountServer\\AccountServerModel\\AccountServerModel.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

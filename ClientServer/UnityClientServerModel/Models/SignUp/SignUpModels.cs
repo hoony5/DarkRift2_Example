@@ -1,5 +1,6 @@
 ﻿using DarkRift;
 
+[System.Serializable]
 public record SignUpRequest : IDarkRiftSerializable
 {
     public ushort ClientID { get; set; }

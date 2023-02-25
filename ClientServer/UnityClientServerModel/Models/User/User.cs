@@ -1,5 +1,6 @@
 ﻿using DarkRift;
 
+[System.Serializable]
 public record User : IDarkRiftSerializable
 {
     public string AccountID { get; set; }

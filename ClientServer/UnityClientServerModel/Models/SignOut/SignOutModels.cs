@@ -1,5 +1,6 @@
 ﻿using DarkRift;
 
+[System.Serializable]
 public record SignOutRequest : IDarkRiftSerializable
 {
     public ushort ClientID { get; set; }

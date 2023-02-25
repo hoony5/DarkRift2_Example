@@ -1,6 +1,5 @@
 ﻿
 using Consul;
-using UnityClientServer;
 using static ServerConnectInfo;
 /// <summary>
 /// DarkRift ServerRegistryConnector plugin for Consul.

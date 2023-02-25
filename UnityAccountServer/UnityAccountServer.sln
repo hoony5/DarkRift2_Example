@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountServer", "AccountServer\AccountServer.csproj", "{94CF248D-A431-4846-A769-8C8A0426318B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountServerModel", "AccountServerModel\AccountServerModel.csproj", "{FACADC81-8674-4868-89F7-32C1790C74DF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{94CF248D-A431-4846-A769-8C8A0426318B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CF248D-A431-4846-A769-8C8A0426318B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94CF248D-A431-4846-A769-8C8A0426318B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FACADC81-8674-4868-89F7-32C1790C74DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FACADC81-8674-4868-89F7-32C1790C74DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FACADC81-8674-4868-89F7-32C1790C74DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FACADC81-8674-4868-89F7-32C1790C74DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

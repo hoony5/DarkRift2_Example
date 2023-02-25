@@ -2,38 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59294512-2782-4fba-9fe5-7d1eb45a4085" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/Avatar/Avatar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/Server/Server.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityClientServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityClientServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityClientServer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServer.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityClientServer/UnityClientServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServer/UnityClientServer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityClientServer/obj/Debug/net7.0/UnityClientServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServer/obj/Debug/net7.0/UnityClientServer.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/UnityClientServerModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/UnityClientServerModel.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/obj/Debug/net7.0/UnityClientServerModel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/obj/Debug/net7.0/UnityClientServerModel.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/AfterSignIn/GetServerModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/AfterSignIn/GetServerModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/DebugModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/DebugModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/Room/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/Room/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/SignIn/SignInModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/SignIn/SignInModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/SignOut/SignOutModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/SignOut/SignOutModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/SignUp/SignUpModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/SignUp/SignUpModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/User/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/User/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/Version/CheckVersionModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/Version/CheckVersionModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityClientServerModel/Models/Version/UpdateVersionModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnityClientServerModel/Models/Version/UpdateVersionModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/.idea/.idea.UnityAccountServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/.idea/.idea.UnityAccountServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/AccountServer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/AccountDBLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/AvatarDBLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/GlobalSpaces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/GlobalSpaces.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/AfterSignIn/GetServerListLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/AfterSignIn/GetServerListLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/Debug/DebugLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/Debug/DebugLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/SignIn/SignInLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/SignIn/SignInLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/SignOut/SignOutLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/SignOut/SignOutLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/SignUp/SignUpLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/SignUp/SignUpLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/Version/CheckVersionLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/Logics/Version/UpdateVersionLogic.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBEx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/MariaDB/MariaDBEx.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/ServerConnector/ConsulServerRegistryConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/ServerConnector/ConsulServerRegistryConnector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/ServerConnector/ServerMessages/ServerConnectInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/ServerConnector/ServerMessages/ServerConnectInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/AccountServer.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/Debug/net7.0/AccountServer.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServer/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/AccountServerModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/AccountServerModel.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/AccountServerModel.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/Debug/net7.0/AccountServerModel.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/AccountServerModel/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/UnityAccountServer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/UnityAccountServer.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityAccountServer/UnityAccountServer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityAccountServer/UnityAccountServer.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1676565510453" duration="251000" />
       <workItem from="1677287441975" duration="697000" />
       <workItem from="1677289201434" duration="348000" />
-      <workItem from="1677289564523" duration="639000" />
+      <workItem from="1677289564523" duration="1649000" />
     </task>
     <servers />
   </component>

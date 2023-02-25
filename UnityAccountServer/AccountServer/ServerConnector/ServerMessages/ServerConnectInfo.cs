@@ -1,7 +1,4 @@
-﻿using System.Collections.Immutable;
-using UnityClientServer;
-
-public static class ServerConnectInfo
+﻿public static class ServerConnectInfo
 {
     private static Dictionary<ushort, IRemoteServer> connectedServers = new Dictionary<ushort, IRemoteServer>(16);
     private static Dictionary<ushort, ushort> connectedServersInternal = new Dictionary<ushort, ushort>(16);

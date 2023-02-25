@@ -1,10 +1,10 @@
-﻿using UnityClientServer;
-using static ServerConnectInfo;
+﻿using static ServerConnectInfo;
 
 public class SignOutLogic
 {
-    public static void ProcessRequest(DarkRiftReader reader, MessageReceivedEventArgs e)
+    public static void ProcessRequest(DarkRiftReader reader, ServerMessageReceivedEventArgs e)
     {
-        SendMessageTo(Get(ServerNames.AccountServer), Tags.SIGN_OUT_REQUEST, reader.ReadSerializable<SignOutRequest>());
+        SendMessageTo(Get(ServerNames.AccountServer), Tags.SIGN_OUT_SUCCESS, reader.ReadSerializable<SignOutRequest>());
+        SendMessageTo(Get(ServerNames.AccountServer), Tags.SIGN_OUT_FAILED, reader.ReadSerializable<SignOutRequest>());
     }
 }

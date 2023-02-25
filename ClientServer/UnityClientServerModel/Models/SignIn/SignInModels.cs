@@ -1,5 +1,5 @@
 ﻿using DarkRift;
-
+[System.Serializable]
 public record SignInRequest : IDarkRiftSerializable
 {
     public ushort ClientID { get; set; } 
@@ -20,6 +20,7 @@ public record SignInRequest : IDarkRiftSerializable
         e.Writer.Write(Password);
     }
 }
+[System.Serializable]
 public record SignInSuccess : IDarkRiftSerializable
 {
     public ushort ClientID { get; set; } 

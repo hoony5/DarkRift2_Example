@@ -1,6 +1,7 @@
 ﻿namespace UnityClientServerModel.Models;
 using DarkRift;
 
+[System.Serializable]
 public record DebugModelRequest : IDarkRiftSerializable
 {
     public string ServerName { get; set; }
@@ -32,6 +33,7 @@ public record DebugModelRequest : IDarkRiftSerializable
         e.Writer.Write((ushort)Tags);
     }
 }
+[System.Serializable]
 public record DebugModelResult : IDarkRiftSerializable
 {
     public Tags Tags { get; set; }
